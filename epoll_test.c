@@ -185,7 +185,7 @@ int main(int argc, char const *argv[])
     close(epollfd);
     close(sockfd);
     free(read_buf);
-    free(write_buf);
 
-    return 0;
+
+ 
 }
